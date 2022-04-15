@@ -15,17 +15,20 @@ html {
 /* CSS of Navbar is added below */
 
 /* NavBar */
-.link-1 a{
+.link-1 a {
     color: white;
     text-decoration: none;
     padding: 5px 10px;
 }
-.app:hover{
-    color:rgb(70, 226, 50);
-}
-.whitespace:hover{
+
+.app:hover {
     color: rgb(70, 226, 50);
 }
+
+.whitespace:hover {
+    color: rgb(70, 226, 50);
+}
+
 /* NavBar */
 
 
@@ -547,8 +550,8 @@ h3 {
 }
 
 .card-features {
-    background-color: transparent;
-    border: none;
+    background-color: transparent !important;
+    border: none !important;
     margin-bottom: 2rem;
     text-align: center
 }
@@ -631,10 +634,15 @@ h3 {
 /* CSS of Footer is added below */
 
 /* Footer */
-.footer{
+footer {
+    padding-top: 0 !important;
+}
+
+.footer {
     justify-content: center;
     text-align: center;
 }
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -643,12 +651,13 @@ h3 {
     text-decoration: none;
     border-radius: 50%;
 }
+
 .fa:hover {
-    color:coral;
+    color: coral;
 }
-.copyright{
+
+.copyright {
     text-align: center;
 }
+
 /* footer */
-
-
